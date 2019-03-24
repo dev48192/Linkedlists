@@ -58,7 +58,7 @@ void append(Node **head_ref,int new_data){
 	
 }
 
-//to delete a node from the linkeed lists
+//to delete a node from the linkeed lists with its key
 void deleteNode(Node **head_ref,int key){
 	Node *node=*head_ref,*prev;
 	if(*head_ref==NULL){
@@ -77,6 +77,7 @@ void deleteNode(Node **head_ref,int key){
 	free(node);
 	return;
 }
+//to delete a node from the linkeed lists with its position
 void deletenode(Node **head_ref,int position){
 	Node *temp=*head_ref,*prev;
 	int count=0;
@@ -95,6 +96,7 @@ void deletenode(Node **head_ref,int position){
 	free(temp);
 	
 }
+//to delete the whole linked lists
 void deleteLinkedlists(Node **head_ref){
 	Node *temp=*head_ref,*nxt;
 	if(temp==NULL)return;
