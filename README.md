@@ -2,7 +2,8 @@
 Just another repository
 
 This is a simple project on linkedlists.Which helps in understanding data Structure.The linked lists is an array of elements containing information of next elements itself.
-Here Some functions are implemented 
+Here Some functions are implemented.
+
        1.To print the whole linkedlist
        
        2.To push an element to the linkedlist
