@@ -1,2 +1,2 @@
-# hello_world
+# Linkedlists
 Just another repository
